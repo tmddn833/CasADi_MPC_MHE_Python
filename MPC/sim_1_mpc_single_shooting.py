@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""
+Problem Single Shooting Implementation using CaSAdi
+Trajectory tracking problem
+https://www.youtube.com/playlist?list=PLK8squHT_Uzej3UCUHjtOtm5X7pMFSgAL
+"""
+
 import casadi as ca
 import casadi.tools as ca_tools
 
