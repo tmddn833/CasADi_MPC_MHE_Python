@@ -22,7 +22,7 @@ class Draw_MPC_point_stabilization_v1(object):
         self.animation_init()
 
         self.ani = animation.FuncAnimation(self.fig, self.animation_loop, range(len(self.robot_states)),
-                                           init_func=self.animation_init, interval=100, repeat=False)
+                                           init_func=self.animation_init, interval=100, repeat=True)
 
         plt.grid('--')
         if export_fig:
